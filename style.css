@@ -1,0 +1,134 @@
+/*
+1px
+1rem=16px
+vh=alto de la página
+vw=ancho de la página
+*/
+.boxfondo{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    position: relative;
+}
+@media screen and (max-width: 768px){
+    .boxfondo{
+         background-color: greenyellow;
+    }
+}
+.cita1{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: cadetblue;
+    text-transform: uppercase;
+    background-color: grey;
+}
+.cita2{
+    color: black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    text-decoration: dotted;
+    text-transform: capitalize;
+}
+.cita3{
+    color: red;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-transform: initial;
+    text-align: justify;
+}
+.cita4{
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-transform: inherit;
+    text-decoration: dashed;
+    background-color: bisque;
+    margin-left: 20px;
+}
+.box{
+    background-color: yellowgreen;
+    width: 100vw;
+    height: 25px;
+    border: 5px solid black;
+    margin-top: 10px;
+    padding: 5px;
+    box-shadow: 5px,4px,10px,2px rgb(80, 77, 77);
+    border-radius: 0.4rem;
+}
+.cita5{
+    color: grey;
+}
+/*
+top
+bottom
+left
+right
+*/
+.box2{
+    background-color: orangered;
+    position: absolute;
+    top: 470px;
+    left: 400px;
+    width: 700px;
+}
+.boxt1{
+    background-color: cadetblue;
+    width: 100vw;
+    height: 50px;
+    border: 1px solid rgb(39, 34, 34);
+    margin: 100px, 100px, 100px, 100px;
+    padding: 5px;
+    box-shadow: 5px,4px,10px,2px rgb(68, 63, 63)1, 65, 65);
+    border-radius: 0.4rem;
+}
+.boxt2{
+    border: 10px double darkgoldenrod;
+    background-color: pink;
+    margin-top: 10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 50vw;
+    gap: 1rem;
+}
+.grid-container div{
+   background-color: tomato;
+   border-radius: 0.4rem;
+   text-align: center;
+}
+.animacion{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transition: 2s;
+}
+.animacion:hover{
+    cursor: pointer;
+    background-color: crimson;
+}
+.mover{
+    border: none;
+    border-radius: 6rem;
+    width: 6rem;
+    height: 6rem;
+    margin-top: 50px;
+    background-color: deeppink;
+    animation: movete 2s infinite;
+}
+@keyframes movete{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(200px);
+    }
+}
