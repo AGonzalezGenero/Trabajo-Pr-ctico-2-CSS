@@ -1,1 +1,2 @@
 # Trabajo-Pr-ctico-2-CSS
+# Este repositorio contiene el trabajo de Estilos de HTML/CSS. El código se debe ver con Google Chrome en el caso del .html. El styles.css fue elaborado en Visual Studio Code. El código agrega estilos a la página web siguiendo las consignas de trabajo del archivo que se nos envió con las pautas y objetivos desde la cátedra de Desarrollo de Software de la Universidad Tecnológica Nacional - Facultad Regional Mendoza en el año 2024.
